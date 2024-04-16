@@ -1,0 +1,46 @@
+.home{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.text{
+width:300px;
+padding:10px;
+border-bottom:2px solid;
+outline:none;
+}
+.btn{
+  padding:10px;
+  background-color:black;
+  color:white;
+  cursor: pointer;
+}
+.task{
+  display:flex;
+  width: 365px;
+  height:30px;
+  background-color: black;
+  color:white;
+  margin-top: 15px;
+  justify-content: space-between;
+  padding:5px;
+
+}
+.checkmark{
+  display:flex;
+  align-items: center;  
+}
+.checkmark .icon {
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 15px;
+}
+.task div .icon{
+  cursor:pointer;
+} 
+.taskdone{
+  text-decoration: line-through;
+}
+.trash{
+  cursor:pointer;
+}
